@@ -22,7 +22,7 @@ export default function WaterRipple(): null {
         const el = document.body;
         // initialize with gentle settings
         $(el).ripples({
-          resolution: 550,
+          resolution: 1000,
           dropRadius: 20,
           perturbance: 0.001,
           interactive: true,
