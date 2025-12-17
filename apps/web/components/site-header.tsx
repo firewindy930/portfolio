@@ -39,8 +39,7 @@ export const SiteHeader = () => {
             onClick={(e) => handleScrollToSection(e, sections.home.href)}
             className="flex items-center gap-2"
           >
-            <Icons.logo className="h-6" />
-            <Icons.name className="h-4" />
+            <img src="/firewindy930.png" alt="logo" width={75} height={75} />
           </Link>
 
           <nav className="hidden items-center justify-center gap-4 md:flex lg:gap-6">

@@ -52,7 +52,7 @@ const legalName = "Sergii Petrychenko";
 export const titleOfSite = `${name}'s Lab`;
 export const titleTemplateOfSite = `%s • ${titleOfSite}`;
 
-const email = "calanderin0130@gmail.com";
+const email = "laos20823@gmail.com";
 const phone = "+1 (779) 396 0015";
 export const personalInfo = {
   name,
@@ -219,25 +219,25 @@ export const skillCategories: SkillCategory[] = [
 ];
 
 export const projects: SideProject[] = [
-  {
-    id: "2",
-    title: "Summarize",
-    description: `An intelligent research article assistant using Retrieval-Augmented Generation (RAG) to summarize and extract key insights from academic papers and documents with high contextual accuracy.`,
-    image: "/summarize.png",
-    demoUrl: "https://summarize.paullam.dev",
-    githubUrl: "https://github.com/lamkashingpaul/summarize",
-    category: "backend",
-    technologies: ["LangChain", "FastAPI", "React", "PostgreSQL"],
-  },
-  {
-    id: "1",
-    title: "Portfolio Website",
-    description: `A responsive portfolio website built with Next.js and Tailwind CSS, featuring animations and a dark mode toggle.`,
-    image: "/portfolio.png",
-    demoUrl: "https://portfolio.paullam.dev",
-    githubUrl: "https://github.com/lamkashingpaul/portfolio",
-    category: "frontend",
-    technologies: ["Next.js", "Tailwind CSS", "TypeScript", "Framer Motion"],
-    featured: true,
-  },
+  // {
+  //   id: "2",
+  //   title: "Summarize",
+  //   description: `An intelligent research article assistant using Retrieval-Augmented Generation (RAG) to summarize and extract key insights from academic papers and documents with high contextual accuracy.`,
+  //   image: "/summarize.png",
+  //   demoUrl: "https://summarize.paullam.dev",
+  //   githubUrl: "https://github.com/lamkashingpaul/summarize",
+  //   category: "backend",
+  //   technologies: ["LangChain", "FastAPI", "React", "PostgreSQL"],
+  // },
+  // {
+  //   id: "1",
+  //   title: "Portfolio Website",
+  //   description: `A responsive portfolio website built with Next.js and Tailwind CSS, featuring animations and a dark mode toggle.`,
+  //   image: "/portfolio.png",
+  //   demoUrl: "https://portfolio.paullam.dev",
+  //   githubUrl: "https://github.com/lamkashingpaul/portfolio",
+  //   category: "frontend",
+  //   technologies: ["Next.js", "Tailwind CSS", "TypeScript", "Framer Motion"],
+  //   featured: true,
+  // },
 ];
