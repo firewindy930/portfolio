@@ -27,6 +27,7 @@ export const ProjectTabs = (props: ProjectTabsProps) => {
         <TabsTrigger value="fullstack">Full Stack</TabsTrigger>
         <TabsTrigger value="backend">Backend</TabsTrigger>
         <TabsTrigger value="mobile">Mobile</TabsTrigger>
+        <TabsTrigger value="blockchain">BlockChain</TabsTrigger>
       </TabsList>
       <TabsContent value="all">
         <ProjectGrid projects={projects} />
@@ -71,7 +72,15 @@ export const ProjectTabs = (props: ProjectTabsProps) => {
 
       <TabsContent value="mobile">
         <ProjectGrid
-          projects={projects.filter((project) => project.category === "mobile")}
+          projects={projects.filter(
+            (project) => project.category === "mobile")}
+        />
+      </TabsContent>
+
+      <TabsContent value="blockchain">
+        <ProjectGrid
+          projects={projects.filter(
+            (project) => project.category === "blockchain")}
         />
       </TabsContent>
     </Tabs>
