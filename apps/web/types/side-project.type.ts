@@ -3,6 +3,7 @@ export type SideProjectCategory =
   | "frontend"
   | "backend"
   | "fullstack"
+  | "blockchain"
   | "mobile";
 
 export type SideProject = {
