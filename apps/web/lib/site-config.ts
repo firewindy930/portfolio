@@ -249,4 +249,24 @@ export const projects: SideProject[] = [
     category: "blockchain",
     technologies: ["React", "BootStrap", "Rust", "Bitcoin", "Next.js", "Solidity"],
   },
-];
+  {
+    id: "4",
+    title: "Lovavo",
+    description: `A tall stack car rental management system built with React, Laravel, and MySQL. Features user authentication, car management, rental processing, and admin dashboard. Implements multi-layer architecture with frontend, backend, database, and service layers for scalable and maintainable codebase.`,
+    image: "/locavo.png",
+    demoUrl: "https://locavo.vercel.app/",
+    githubUrl: "https://github.com/firewindy930/LOCAVO",
+    category: "fullstack",
+    technologies: ["React", "Mysql", "PHP", "Laravel", "Tailwind CSS"],
+  },
+  {
+    id: "5",
+    title: "Social Crypto Platform",
+    description: `Developed a real-time cryptocurrency analytics platform combining live market data with social media insights.`,
+    image: "/social_crypto_platform.png",
+    demoUrl: "https://social-crypto-platform.vercel.app",
+    githubUrl: "https://github.com/firewindy930/Social_Crypto_Platform",
+    category: "blockchain",
+    technologies: ["TypeScript", "Next.js", "Tailwind CSS", "Coinmarketcap API", "Shadcn UI"],
+  },
+];  
