@@ -269,4 +269,14 @@ export const projects: SideProject[] = [
     category: "blockchain",
     technologies: ["TypeScript", "Next.js", "Tailwind CSS", "Coinmarketcap API", "Shadcn UI"],
   },
+  {
+    id: "6",
+    title: "Whop and Discord Realtime Message Bot",
+    description: `A high-performance, resilient automation bot engineered to seamlessly bridge Whop Chats with Discord Webhooks in real time, ensuring instant message delivery, fault tolerance, low latency, secure handling of events, and reliable synchronization across both platforms at scale.`,
+    image: "/Whop-Discord-Realtime-Message-Bot.png",
+    demoUrl: "#",
+    githubUrl: "https://github.com/firewindy930/Whop-and-Discord-Realtime-Message-Bot",
+    category: "backend",
+    technologies: ["Node.js", "Discord.js", "Whop API", "TypeScript", "Badge"],
+  },
 ];  
