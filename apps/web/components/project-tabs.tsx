@@ -73,14 +73,16 @@ export const ProjectTabs = (props: ProjectTabsProps) => {
       <TabsContent value="mobile">
         <ProjectGrid
           projects={projects.filter(
-            (project) => project.category === "mobile")}
+            (project) => project.category === "mobile",
+          )}
         />
       </TabsContent>
 
       <TabsContent value="blockchain">
         <ProjectGrid
           projects={projects.filter(
-            (project) => project.category === "blockchain")}
+            (project) => project.category === "blockchain",
+          )}
         />
       </TabsContent>
     </Tabs>
