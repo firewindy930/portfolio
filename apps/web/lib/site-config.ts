@@ -276,7 +276,7 @@ export const projects: SideProject[] = [
     image: "/Whop-Discord-Realtime-Message-Bot.png",
     demoUrl: "#",
     githubUrl: "https://github.com/firewindy930/Whop-and-Discord-Realtime-Message-Bot",
-    category: "backend",
+    category: "frontend",
     technologies: ["Node.js", "Discord.js", "Whop API", "TypeScript", "Badge"],
   },
 ];  
