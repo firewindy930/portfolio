@@ -279,4 +279,14 @@ export const projects: SideProject[] = [
     category: "frontend",
     technologies: ["Node.js", "Discord.js", "Whop API", "TypeScript", "Badge"],
   },
+  {
+    id: "7",
+    title: "black-beard-html5-slot-game",
+    description: `A pirate-themed HTML5 slot machine game converted to free play mode.`,
+    image: "/black-beard-html5-slot-game.png",
+    demoUrl: "https://black-beard-html5-slot-game.vercel.app/",
+    githubUrl: "https://github.com/firewindy930/black-beard-html5-slot-game",
+    category: "frontend",
+    technologies: ["Html-Canvas", "Slot-Machine", "Black-Beard"],
+  },
 ];  
