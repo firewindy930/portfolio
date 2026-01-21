@@ -286,7 +286,7 @@ export const projects: SideProject[] = [
     image: "/black-beard-html5-slot-game.png",
     demoUrl: "https://black-beard-html5-slot-game.vercel.app/",
     githubUrl: "https://github.com/firewindy930/black-beard-html5-slot-game",
-    category: "backend",
+    category: "frontend",
     technologies: ["Html-Canvas", "Slot-Machine", "Black-Beard"],
   },
 ];  
