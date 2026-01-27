@@ -70,6 +70,7 @@ export const personalInfo = {
 
 export const socialLinks = {
   gitHub: "https://github.com/firewindy930",
+  telegram: "https://t.me/jialim679",
   linkedIn: "#",
   email: `mailto:${email}`,
   resume: `https://drive.google.com/file/d/1IgEbxRShD3kS6BpoDeW0_640wcqtncat/view?usp=sharing`,
@@ -317,6 +318,6 @@ export const projects: SideProject[] = [
     demoUrl: "https://gambitmarkets.com/",
     githubUrl: "#",
     category: "blockchain",
-    technologies: ["Game", "Vue.js", "BlockChain", "Angular", "Crypto", "Smart-Contracts", "Solidity", "Binance", "Solana"],
+    technologies: ["Next.js", "BlockChain", "Crypto", "Smart-Contracts", "Solidity", "Binance", "Solana", "Trailwind CSS"],
   },
 ];  
