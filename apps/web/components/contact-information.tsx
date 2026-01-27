@@ -66,7 +66,7 @@ export const ContactInformation = (props: ContactInformationProps) => {
       <div className="space-y-4">
         <h3 className="text-xl font-medium">Connect With Me</h3>
         <div className="flex gap-4">
-          <a
+          {/* <a
             href={socialLinks.linkedIn}
             target="_blank"
             rel="noopener noreferrer"
@@ -74,7 +74,7 @@ export const ContactInformation = (props: ContactInformationProps) => {
             aria-label="LinkedIn"
           >
             <Icons.linkedIn className="text-primary size-5" />
-          </a>
+          </a> */}
           <a
             href={socialLinks.gitHub}
             target="_blank"
