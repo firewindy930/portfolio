@@ -84,6 +84,15 @@ export const ContactInformation = (props: ContactInformationProps) => {
           >
             <Icons.gitHub className="text-primary size-5" />
           </a>
+          <a
+            href={socialLinks.telegram}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-muted hover:bg-primary/10 rounded-full p-3 transition-colors"
+            aria-label="GitHub"
+          >
+            <Icons.telegram className="text-primary size-5" />
+          </a>
         </div>
       </div>
     </div>
