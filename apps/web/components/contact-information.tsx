@@ -93,6 +93,15 @@ export const ContactInformation = (props: ContactInformationProps) => {
           >
             <Icons.telegram className="text-primary size-5" />
           </a>
+             <a
+            href={socialLinks.phone}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-muted hover:bg-primary/10 rounded-full p-3 transition-colors"
+            aria-label="GitHub"
+          >
+            <Icons.whatsapp className="text-primary size-5" />
+          </a>
         </div>
       </div>
     </div>
