@@ -309,4 +309,14 @@ export const projects: SideProject[] = [
     category: "blockchain",
     technologies: ["Game", "Vue.js", "BlockChain", "Angular", "Crypto", "Smart-Contracts", "Solidity", "Binance", "Solana"],
   },
+  {
+    id: "10",
+    title: "Gambit Markets",
+    description: `Gambit Markets is an online platform for sports betting and prediction markets that uses AI tools and autonomous agents to help users make predictions and place bets on sports and other outcomes. It combines traditional sportsbook features with prediction markets and automated betting strategies.`,
+    image: "/Gambit-Markets.png",
+    demoUrl: "https://gambitmarkets.com/",
+    githubUrl: "#",
+    category: "blockchain",
+    technologies: ["Game", "Vue.js", "BlockChain", "Angular", "Crypto", "Smart-Contracts", "Solidity", "Binance", "Solana"],
+  },
 ];  
