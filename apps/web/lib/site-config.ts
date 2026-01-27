@@ -75,7 +75,7 @@ export const socialLinks = {
   email: `mailto:${email}`,
   resume: `https://drive.google.com/file/d/1IgEbxRShD3kS6BpoDeW0_640wcqtncat/view?usp=sharing`,
   phone: `tel:+${phone.replace(/\D/g, "")}`,
-  whatsapp : `${phone}`
+  whatsapp : `https://wa.me/17793960015`
 };
 
 export const whoIAm = [
