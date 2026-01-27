@@ -544,7 +544,7 @@ export const Icons = {
     <svg
       role="img"
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 32 32"
+      viewBox="0 0 17 17"
       width="22" height="22"
       {...props}
     >
